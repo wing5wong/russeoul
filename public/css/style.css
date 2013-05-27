@@ -1,0 +1,321 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumbrushscript.css);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanummyeongjo.css);
+@import url(http://fonts.googleapis.com/css?family=Quintessential);
+
+@import url(http://fonts.googleapis.com/css?family=Englebert);
+@import url(http://fonts.googleapis.com/css?family=Grand+Hotel);
+
+
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Vollkorn:400italic,400,700);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:400,700);
+
+ body,input, button, select, textarea {
+  font-family:'Georgia', 'serif';
+  color:rgba(0,0,0,0.6);
+
+}
+h1{font-family:'nanum myeongjo';}
+.brand,h2,h3,h4,h5,h6
+{
+  font-family:'PT Sans';
+  color:#0F5056;
+
+
+}
+h1{font-size:28px;}
+h1 small{font-size:0.8em;}
+h2{
+  font-size:24px;
+  font-weight:normal;
+}
+h3
+{
+  font-size:16px;
+  font-weight:normal;
+  line-height:26px;
+}
+h4{font-size:24px;}
+h5{font-size:16px;}
+h5 small{font-weight:normal;}
+h6{font-size:2em;}
+
+div,ul,a,li{-moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+
+.table > thead > tr > th{
+  background:#0F5056;
+  text-shadow:1px 1px rgba(0,0,0,0.4);
+  color:#fff;
+} 
+.table-bordered,
+.table-bordered th,
+.table-bordered td{
+  border-color:#0F5056;
+}
+
+.container{border-top:none;
+  -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box;
+  margin-bottom:40px; border-radius: 0 0 4px 4px;
+}
+
+.navbar-fixed-top .container
+{
+  background:none;
+  border:none;
+  margin-bottom:0;
+}
+.navbar-inverse{ color: #7CBCC2; }
+.navbar-inverse .navbar-inner
+{
+  background:linear-gradient(to bottom, #1c3444, #06263B);
+}
+.navbar-inverse .navbar-inner .brand
+{
+  color: #9BCA45;
+  text-shadow:0 -1px 0 rgba(0, 0, 0, 0.5);
+  font-weight:bold;
+}
+.navbar-inverse label:hover{color:#fff;}
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle
+{
+  background:#0F5056;
+}
+.navbar-inverse .brand, .navbar-inverse .nav > li > a
+{
+  color:#4885AD;
+  text-shadow: 0px -1px 0px rgba(0,0,0,.5);
+
+}
+
+.pagination ul > .disabled > span, .pagination ul > .disabled > a, .pagination ul > .disabled > a:hover, .pagination ul > .disabled > a:focus
+{
+
+  background:whitesmoke;
+}
+
+cite
+{
+  display:block;
+  font-style:italic;
+}
+
+.controls a
+{
+  display:inline-block;
+  padding-top:5px;
+}
+
+textarea
+{
+  max-width:100%;
+  min-width:100%;
+  -moz-box-sizing:border-box;
+}
+
+
+.table *.td-centered{
+ text-align:center;
+}
+
+::selection{
+	background:#f00;
+}
+
+body{
+  background: url(../img/red-seamless.jpg);
+  background:#2E7D85;
+  background-position:top center;
+  background-attachment: fixed;
+  background:#143F5B;
+  background:#6390AD;
+}
+
+.nav > li > a:hover, .nav > li > a:focus{
+  /*.table-hover tbody tr:hover > td, .table-hover tbody tr:hover > th{*/
+    background-color:rgba(163, 44, 56,0.2);
+  }
+
+  .navbar-inner
+  {
+    border-bottom:1px solid #7CBCC2;
+  }
+  .row-wrap {
+    background:#741446;
+    margin-bottom:20px;
+    border-bottom:1px solid #7CBCC2;
+    background:#7D1538;
+    background: linear-gradient(to bottom, #5e2337, #510720) repeat scroll 0 0 transparent;}
+    .row-wrap .container{margin-bottom:0;}
+
+    .row-wrap h1,
+    .row-wrap h2,
+    .row-wrap h3
+    {
+      color:#fff;
+     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.7);
+    }
+
+
+    .class-info
+    {
+      margin-bottom:10px;
+      box-shadow:4px 4px 2px rgba(0,0,0,0.4);
+    }
+
+    .class-info h3,
+    .course-heading
+    {
+      padding-left:10px;
+      background:#0F5056;
+      margin:0;
+      color:#9BCA45;
+      text-shadow:1px 1px rgba(0,0,0,0.4);
+      border-color:#C7E592;
+    }
+    .class-info p
+    {
+      padding:0 10px 10px 10px;
+      background:#fff;
+      margin:0;
+    }
+    .class-info > p:first-of-type{
+      padding-top:10px;
+    }
+    .pagination ul > .active > a, .pagination ul > .active > span,
+    .pagination ul > li > a:hover, .pagination ul > li > a:focus, .pagination ul > .active > a, .pagination ul > .active > span
+    {
+      background:#9ACA44;
+      color:#fff;
+    }
+
+    .pagination ul > li > a, .pagination ul > li > span,
+    .breadcrumb,
+    .nav-tabs.nav-stacked li a{
+      background:whitesmoke;
+      background: #06263B;
+    }
+    .breadcrumb >li
+    {
+      text-shadow:none;
+    }
+
+    h4
+    {
+      padding:5px;
+      border:1px solid #0F5056;
+      background:whitesmoke;
+      border-radius:4px;
+    }
+    .class-info,
+    .breadcrumb,
+    .course-heading
+    {
+      border:1px solid #0F5056;
+    }
+
+    .form-horizontal
+    {
+      padding:20px;
+      background:whitesmoke;
+      border:1px solid #0F5056;
+      border-radius:4px;
+      margin-bottom:0;
+    }
+
+    .form-horizontal h2
+    {
+      margin-top:0;
+      margin-bottom:20px;
+      border-bottom:1px solid #0F5056;
+    }
+
+    .nav-tabs.nav-stacked > li > a,
+    .nav-tabs.nav-stacked > li > a:hover
+    {
+      border:1px solid #0F5056;
+    }
+    .nav-tabs.nav-stacked > li > a:hover
+    {
+      background:#7CBCC2;
+      color: #fff;
+    }
+
+    .well
+    {
+      text-align:center;
+      border-color:#fff;
+    }
+    .well *
+    {
+      text-align:left;
+    }
+
+    [class*="span"] > *
+    {
+      margin-top:0;
+    }
+
+    .nav{
+      margin-bottom:0;
+    }
+    .pagination
+    {
+      margin:20px 0 0 0 ;
+      text-align:center;
+    }
+
+    .pagination ul > li > a
+    {
+      border:1px solid #7CBCC2;
+    }
+
+    .course-heading
+    {
+      margin-bottom: 15px;
+      border-radius:4px;
+      border-color:#BCE573;
+    }
+    .course-heading h3
+    {
+     margin:0;
+   }
+   .breadcrumb
+   {
+    border-color:#fff;
+  }
+
+  .course-heading,.breadcrumb,.well
+  {
+   box-shadow:4px 4px 2px rgba(0,0,0,0.4);
+   border:1px solid #e6e6e6;
+
+ }
+
+ .img-polaroid
+ {
+  box-shadow:4px 4px 2px rgba(0,0,0,0.4), -4px 4px 2px rgba(0,0,0,0.4) ;
+}
+
+.row-wrap,.navbar
+{
+  box-shadow:0px 4px 2px rgba(0,0,0,0.4);
+  border-bottom:1px solid #e6e6e6;
+}
+
+.form-login input[type='text'],.form-login input[type='password'],.form-login .add-on{
+ box-shadow:4px 4px 2px rgba(0,0,0,0.4); 
+}
+
+
+@media (min-width: 980px) {
+  /* add top margin for navbar fixed top */
+  .row-wrap {
+    margin-top:41px;
+  }
+}

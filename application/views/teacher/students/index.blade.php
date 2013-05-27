@@ -1,0 +1,1 @@
+this is the index page where a teacher can see a list of students

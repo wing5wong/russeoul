@@ -1,0 +1,26 @@
+{
+    "name": "illuminate/filesystem",
+    "description": "A filesystem abstraction library.",
+    "authors": [
+        {
+            "name": "Taylor Otwell",
+            "email": "taylorotwell@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "psr-0": {
+            "Illuminate\\Filesystem": ""
+        }
+    },
+    "target-dir": "Illuminate/Filesystem",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    },
+    "minimum-stability": "dev"
+}
